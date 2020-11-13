@@ -68,7 +68,7 @@
               name="pais"
               required
               [class.is-invalid]="pais.invalid && pais.touched"
-              [disable]="paises.length === 0"
+              [disabled]="paises.length === 0"
               [ngModel]="usuario.pais"
               required
               #pais="ngModel">
